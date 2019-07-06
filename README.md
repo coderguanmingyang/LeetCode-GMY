@@ -11,7 +11,7 @@ Source code of question in [Leetcode](https://leetcode.com/)
 - [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 - [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [61. Rotate List](https://leetcode.com/problems/rotate-list/)
-- [148. Sort List [Topic: Merge sort and LinkedList]](https://leetcode.com/problems/sort-list/)
+- [148. Sort List ](https://leetcode.com/problems/sort-list/) [Topic: Merge sort and LinkedList]
 
 ### BinarySearch <a href="bs"></a>
 
