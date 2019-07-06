@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 '''
 Sort a linked list in O(n log n) time using constant space complexity.
 
@@ -12,6 +13,11 @@ Output: -1->0->3->4->5
 
 '''
 ## Topic: Merge Sort and Linked List
+## Anlysis: 时间复杂度在O(nlogN)的排序算法是快速排序，堆排序，归并排序。
+# 但是快排的最坏时间复杂度是O(n^2),平均时间复杂度为O(nlogn)，所以不考虑快速排序。
+# 而堆排序太繁琐了。生硬地排除了。对于数组来说占用的空间复杂度为O(1),O(n),O(n)。
+# 但是对于链表来说使用归并排序占用空间为O(1).
+
 
 # Definition for singly-linked list.
 class ListNode(object):
