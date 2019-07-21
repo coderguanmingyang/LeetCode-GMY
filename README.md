@@ -2,7 +2,7 @@
 Source code of question in [Leetcode](https://leetcode.com/)
 
 ## Topics
-- [BinarySearrch](#bs)  
+- [BinarySearch](#bs)  
 - [Linked List](#ll)
 - [Hash Table](#ht)
 
@@ -26,4 +26,9 @@ Source code of question in [Leetcode](https://leetcode.com/)
 - [381. Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)
 - [187. Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)
 - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
-- [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+- [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)  
+
+### Dynamic Planning <a href="ht"></a>  
+
+- [LeetCode-62.Unique Paths](DynamicPlanning/Unique-Paths.py)
+- [LeetCode-63.Unique Paths II](DynamicPlanning/Unique-Paths-II.py)
