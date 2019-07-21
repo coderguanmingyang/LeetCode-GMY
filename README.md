@@ -32,3 +32,4 @@ Source code of question in [Leetcode](https://leetcode.com/)
 
 - [LeetCode-62.Unique Paths](DynamicPlanning/Unique-Paths.py)
 - [LeetCode-63.Unique Paths II](DynamicPlanning/Unique-Paths-II.py)
+- [矩阵相乘最小乘法次数](DynamicPlanning/Matrix-Continuous-Multiply.py)
