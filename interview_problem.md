@@ -1,5 +1,26 @@
 # About Deep learning  
 ## Train trick  
+### Normalization  
+[如何区分并记住常见的几种 Normalization 算法](https://zhuanlan.zhihu.com/p/69659844)
+[Batch Normalization原理与实战](https://zhuanlan.zhihu.com/p/34879333)
+- 在深层网络训练的过程中，由于网络中参数变化而引起内部结点数据分布发生变化的这一过程被称作Internal Covariate Shift。
+- 1.3 Internal Covariate Shift会带来什么问题？  
+    - （1）上层网络需要不停调整来适应输入数据分布的变化，导致网络学习速度的降低
+    - （2）网络的训练过程容易陷入梯度饱和区，减缓网络收敛速度
+- 对于激活函数梯度饱和问题，有两种解决思路。第一种就是更为非饱和性激活函数，
+例如线性整流函数ReLU可以在一定程度上解决训练进入梯度饱和区的问题。另一种思路是，我们可以让激活函数的输入分布保持在一个稳定状态来尽可能避免它们陷入梯度饱和区，
+这也就是Normalization的思路。  
+
+- Batch Normalization的优势  
+    - 1）BN使得网络中每层输入数据的分布相对稳定，加速模型学习速度. BN通过规范化与线性变换使得每一层网络的输入数据的均值与方差都在一定范围内，使得后一层网络不必不断去适应底层网络中输入的变化，从而实现了网络中层与层之间的解耦，
+允许每一层进行独立学习，有利于提高整个神经网络的学习速度。  
+    - （2）BN使得模型对网络中的参数不那么敏感，简化调参过程，使得网络学习更加稳定.  
+    - （3）BN允许网络使用饱和性激活函数（例如sigmoid，tanh等），缓解梯度消失问题
+
+### Dropout  
+[深度学习中Dropout原理解析](https://zhuanlan.zhihu.com/p/38200980)  
+[神经网络Dropout层中为什么dropout后还需要进行rescale？](https://www.zhihu.com/question/61751133)
+
 ## Model architecture  
 ### 空洞卷积  
 [Multi-scale context aggregation with dilated convolutions](https://arxiv.org/pdf/1511.07122.pdf)  
